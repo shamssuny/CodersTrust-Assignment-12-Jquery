@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js Jquery events</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<style type="text/css">
+		.red{
+			color: red;
+		}
+		.nocolor{color:none;}
+		.textfield{
+			text-align: center;
+
+		}
+		.fu{text-align: center;}
+		.fu p{
+			display: inline-block;
+			margin: 10px;
+			font-size: 20px;
+
+		}
+		.fu input{
+			margin-left: 10px;
+			padding: 5px;
+			border-radius: 8px;
+			font-weight: bold;
+
+		}
+	</style>
+</head>
+<body>
+
+
+
+
+<div class="container well">
+	<div class="main">
+		
+		<div class="textfield row col-md-12">
+			<textarea style="box-shadow: 1px 2px 114px #2c97a9;border-radius: 14px;padding: 10px;" id="text" cols="60" rows="10" placeholder="input text"></textarea>
+			<b><p id="p">160</p></b>
+		</div>	
+
+
+
+		<div class="faction row">
+
+			<div class="fu col-md-12">
+			<form action="">
+				<p id="name">Shams Shahriar</p><button class="btn btn-primary" id="bname">Copy</button><input type="text" name="" id="fname" value=""><br>
+
+				<p id="ins1">DIU</p><button class="btn btn-primary" id="bins1">Copy</button><input type="text" name="" id="fins1" value=""><br>
+
+				<p id="ins2">Coders Trust</p><button class="btn btn-primary" id="bins2">Copy</button><input type="text" name="" id="fins2" value=""><br>
+
+				<p id="batch">CTG - 50</p><button class="btn btn-primary" id="bbatch">Copy</button><input type="text" name="" id="fbatch" value=""><br>
+
+				<p id="bye">অকা বাই</p><button class="btn btn-primary" id="bbye">Copy</button><input type="text" name="" id="fbye" value=""><br>
+				<button class="btn btn-success" id="all">Add All</button>
+				<input class="btn btn-danger" type="reset" name="" value="reset" id="res">
+			</form>
+			</div>
+
+
+			
+		</div>
+
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- jquery library start -->
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+<!-- jquery library end -->
+</body>
+</html>
